@@ -1274,21 +1274,6 @@
         "runtime": {
           "bin/placeholder/EasyCashIdentity.Domain.dll": {}
         }
-      },
-      "EasyCashIdentiy.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "EasyCashIdentity.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.16",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
-        },
-        "compile": {
-          "bin/placeholder/EasyCashIdentiy.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EasyCashIdentiy.Application.dll": {}
-        }
       }
     }
   },
@@ -2955,17 +2940,11 @@
       "type": "project",
       "path": "../EasyCashIdentity.Domain/EasyCashIdentity.Domain.csproj",
       "msbuildProject": "../EasyCashIdentity.Domain/EasyCashIdentity.Domain.csproj"
-    },
-    "EasyCashIdentiy.Application/1.0.0": {
-      "type": "project",
-      "path": "../EasyCashIdentiy.Application/EasyCashIdentiy.Application.csproj",
-      "msbuildProject": "../EasyCashIdentiy.Application/EasyCashIdentiy.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "EasyCashIdentity.Domain >= 1.0.0",
-      "EasyCashIdentiy.Application >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore >= 6.0.16",
@@ -3008,9 +2987,6 @@
           "projectReferences": {
             "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentity.Domain\\EasyCashIdentity.Domain.csproj": {
               "projectPath": "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentity.Domain\\EasyCashIdentity.Domain.csproj"
-            },
-            "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentiy.Application\\EasyCashIdentiy.Application.csproj": {
-              "projectPath": "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentiy.Application\\EasyCashIdentiy.Application.csproj"
             }
           }
         }

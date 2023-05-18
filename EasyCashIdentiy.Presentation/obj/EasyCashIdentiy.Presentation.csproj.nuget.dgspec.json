@@ -123,6 +123,9 @@
             "projectReferences": {
               "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentity.Domain\\EasyCashIdentity.Domain.csproj": {
                 "projectPath": "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentity.Domain\\EasyCashIdentity.Domain.csproj"
+              },
+              "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentiy.Persistance\\EasyCashIdentiy.Persistance.csproj": {
+                "projectPath": "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentiy.Persistance\\EasyCashIdentiy.Persistance.csproj"
               }
             }
           }
@@ -137,6 +140,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.16, )"
@@ -208,9 +223,6 @@
             "projectReferences": {
               "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentity.Domain\\EasyCashIdentity.Domain.csproj": {
                 "projectPath": "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentity.Domain\\EasyCashIdentity.Domain.csproj"
-              },
-              "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentiy.Application\\EasyCashIdentiy.Application.csproj": {
-                "projectPath": "C:\\Users\\Eyup\\RiderProjects\\EasyCashIdentityProject\\EasyCashIdentiy.Application\\EasyCashIdentiy.Application.csproj"
               }
             }
           }
