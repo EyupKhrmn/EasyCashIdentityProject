@@ -1,0 +1,14 @@
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\bin\Debug\net6.0\EasyCashIdentity.Domain.deps.json
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\bin\Debug\net6.0\EasyCashIdentity.Domain.runtimeconfig.json
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\bin\Debug\net6.0\EasyCashIdentity.Domain.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\bin\Debug\net6.0\EasyCashIdentity.Domain.pdb
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.csproj.AssemblyReference.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.AssemblyInfoInputs.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.AssemblyInfo.cs
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\refint\EasyCashIdentity.Domain.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.pdb
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\EasyCashIdentity.Domain.genruntimeconfig.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentity.Domain\obj\Debug\net6.0\ref\EasyCashIdentity.Domain.dll

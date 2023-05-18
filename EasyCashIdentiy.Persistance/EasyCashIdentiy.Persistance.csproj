@@ -21,4 +21,9 @@
       </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\EasyCashIdentity.Domain\EasyCashIdentity.Domain.csproj" />
+      <ProjectReference Include="..\EasyCashIdentiy.Application\EasyCashIdentiy.Application.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,17 @@
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentiy.Application.deps.json
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentiy.Application.runtimeconfig.json
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentiy.Application.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentiy.Application.pdb
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentity.Domain.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentity.Domain.pdb
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.csproj.AssemblyReference.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.AssemblyInfoInputs.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.AssemblyInfo.cs
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.csproj.CoreCompileInputs.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.csproj.CopyComplete
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\refint\EasyCashIdentiy.Application.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.pdb
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.genruntimeconfig.cache
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\ref\EasyCashIdentiy.Application.dll
