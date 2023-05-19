@@ -15,3 +15,5 @@ C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.pdb
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\EasyCashIdentiy.Application.genruntimeconfig.cache
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\obj\Debug\net6.0\ref\EasyCashIdentiy.Application.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentiy.Persistance.dll
+C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Application\bin\Debug\net6.0\EasyCashIdentiy.Persistance.pdb

@@ -3,9 +3,7 @@ C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\bin\Debug\net6.0\EasyCashIdentiy.Persistance.dll
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\bin\Debug\net6.0\EasyCashIdentiy.Persistance.pdb
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\bin\Debug\net6.0\EasyCashIdentity.Domain.dll
-C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\bin\Debug\net6.0\EasyCashIdentiy.Application.dll
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\bin\Debug\net6.0\EasyCashIdentity.Domain.pdb
-C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\bin\Debug\net6.0\EasyCashIdentiy.Application.pdb
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\obj\Debug\net6.0\EasyCashIdentiy.Persistance.csproj.AssemblyReference.cache
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\obj\Debug\net6.0\EasyCashIdentiy.Persistance.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Eyup\RiderProjects\EasyCashIdentityProject\EasyCashIdentiy.Persistance\obj\Debug\net6.0\EasyCashIdentiy.Persistance.AssemblyInfoInputs.cache

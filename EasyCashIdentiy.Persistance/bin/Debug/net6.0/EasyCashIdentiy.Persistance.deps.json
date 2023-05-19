@@ -9,7 +9,6 @@
       "EasyCashIdentiy.Persistance/1.0.0": {
         "dependencies": {
           "EasyCashIdentity.Domain": "1.0.0",
-          "EasyCashIdentiy.Application": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.16",
           "Microsoft.EntityFrameworkCore": "6.0.16",
@@ -836,16 +835,6 @@
         "runtime": {
           "EasyCashIdentity.Domain.dll": {}
         }
-      },
-      "EasyCashIdentiy.Application/1.0.0": {
-        "dependencies": {
-          "EasyCashIdentity.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.16",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
-        },
-        "runtime": {
-          "EasyCashIdentiy.Application.dll": {}
-        }
       }
     }
   },
@@ -1353,11 +1342,6 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "EasyCashIdentity.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "EasyCashIdentiy.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
