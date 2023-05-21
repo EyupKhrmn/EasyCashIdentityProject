@@ -10,13 +10,12 @@
     <br/>
     <br/>
     <form method="post">
-        <h2>Email Adresinizi Kontrol Ediniz. Adresiniz: @ViewBag.v</h2>
+        <label>Doğrulama Kodunun Ulaştığı Mail Adresi</label>
+        <input type="text" class="form-control" asp-for="Email" value="@ViewBag.v" />
+        
+        <label>Mail Adresinize Gelen 6 Haneli Kodu Giriniz </label>
+        <input type="text" class="form-control" asp-for="ConfirmCode" />
         <br/>
-        <label>Kullanıcı ID Değeri</label>
-        <input type="text" class="form-control" asp-for="Id" />
-        <label>Mail Adresinize Gelen 6 Haneli Kodu Giriniz</label>
-        <<input type="text" class="form-control" asp-for="ConfirmCode" />
-        <br/>
-        <button class="btn btn-primary">Hesabı Aktifleştir</button>
+        <button class="btn btn-primary" formmethod="post">Hesabı Aktifleştir</button>
     </form>
 </div>

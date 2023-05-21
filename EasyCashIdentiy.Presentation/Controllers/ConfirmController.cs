@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using EasyCashIdentity.Domain.Dtos.AppUserDtos;
 using EasyCashIdentity.Domain.Entites;
 using EasyCashIdentiy.Presentation.Models;
 using Microsoft.AspNetCore.Identity;
@@ -8,17 +9,31 @@ namespace EasyCashIdentiy.Presentation.Controllers;
 
 public class ConfirmController : Controller
 {
-    [HttpGet]
-    public IActionResult Index(int id)
+    private readonly UserManager<AppUser> _userManager;
+
+    public ConfirmController(UserManager<AppUser> userManager)
     {
-        var value = TempData["Mail"];
-        ViewBag.v = value;
-        return View();
+        _userManager = userManager;
     }
 
-    // [HttpPost]
-    // public IActionResult COnfirMail(ConfirmMailViewModel confirmMailViewModel)
-    // {
-    //     return View();
-    // }
+    [HttpGet]
+     public IActionResult Index(int id)
+     {
+         var value = TempData["Mail"];
+         ViewBag.v = value;
+         return View();
+     }
+
+    [HttpPost]
+    public async Task<IActionResult> Index(ConfirmMailViewModel confirmMailViewModel)
+    {
+        var value = confirmMailViewModel.Email;
+        var user = await _userManager.FindByEmailAsync(value);
+        if (user.ConfirmCode == confirmMailViewModel.ConfirmCode)
+        {
+            return RedirectToAction("Index","MyProfile");
+        }
+
+        return RedirectToAction("Index", "Confirm");
+    }
 }

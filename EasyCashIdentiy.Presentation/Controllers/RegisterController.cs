@@ -1,5 +1,6 @@
 ﻿using EasyCashIdentity.Domain.Dtos.AppUserDtos;
 using EasyCashIdentity.Domain.Entites;
+using EasyCashIdentiy.Presentation.Models;
 using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -40,7 +41,9 @@ public class RegisterController : Controller
                 ImageUrl = appUserRegisterDto.ImageUrl,
                 ConfirmCode = code
             };
+            
             var result = await _userManager.CreateAsync(appUser, appUserRegisterDto.Password);
+            
             if (result.Succeeded)
             {
                 MimeMessage mimeMessage = new MimeMessage();
