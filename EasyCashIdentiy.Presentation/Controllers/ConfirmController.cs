@@ -31,6 +31,8 @@ public class ConfirmController : Controller
         var user = await _userManager.FindByEmailAsync(value);
         if (user.ConfirmCode == confirmMailViewModel.ConfirmCode)
         {
+            user.EmailConfirmed = true;
+            await _userManager.UpdateAsync(user);
             return RedirectToAction("Index","MyProfile");
         }
 
