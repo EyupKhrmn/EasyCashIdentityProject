@@ -2,6 +2,7 @@
 using EasyCashIdentiy.Presentation.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 
 namespace EasyCashIdentiy.Presentation.Controllers;
 
@@ -25,7 +26,17 @@ public class LoginController : Controller
     [HttpPost]
     public async Task<IActionResult> Index(LoginViewModel loginViewModel)
     {
-        var result = await _signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password,false,true);
+        SignInResult result;
+                
+        if (loginViewModel.RememberMe)
+        {
+            result = await _signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password, true, true);
+        }
+        else
+        {
+            result = await _signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password,false,true);
+        }
+        
         if (result.Succeeded)
         {
             var user = await _userManager.FindByNameAsync(loginViewModel.Username);
