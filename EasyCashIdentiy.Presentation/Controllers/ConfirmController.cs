@@ -33,7 +33,7 @@ public class ConfirmController : Controller
         {
             user.EmailConfirmed = true;
             await _userManager.UpdateAsync(user);
-            return RedirectToAction("Index","MyProfile");
+            return RedirectToAction("Index","Login");
         }
 
         return RedirectToAction("Index", "Confirm");
